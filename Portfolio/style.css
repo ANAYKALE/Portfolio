@@ -1,0 +1,149 @@
+/* Global Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #f4f4f4;
+    background-color: #282c34;
+
+}
+
+/* Header Styles */
+header {
+    background-color: #282c34;
+    padding: 10px 0;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 10;
+}
+
+header ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    padding: 0;
+    margin: 0;
+}
+
+header ul li {
+    margin: 0 15px;
+}
+
+header ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+header ul li a:hover {
+    color: #61dafb;
+}
+
+/* Intro Section */
+.intro-section {
+    height: 100vh;
+    background-image: url('assets/background.jpg');
+    background-size: cover;
+    background-position: center;
+    color: white;
+    text-align: center;
+    padding: 100px 20px;
+}
+
+.intro h1 span {
+    color: #61dafb;
+}
+
+.cta-btn {
+    padding: 12px 24px;
+    background-color: #61dafb;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+    margin-top: 20px;
+    display: inline-block;
+}
+
+.cta-btn:hover {
+    background-color: #50b2e6;
+}
+
+/* Section Styles */
+section {
+    padding: 80px 20px;
+    text-align: center;
+}
+
+.projects-section .project-card, .skills-section ul {
+    max-width: 600px;
+    margin: 20px auto;
+}
+
+.skills-section ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.skills-section ul li {
+    font-size: 18px;
+    margin: 10px 0;
+}
+
+/* Download Resume Button */
+.download-btn {
+    padding: 12px 24px;
+    background-color: #61dafb;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+    display: inline-block;
+}
+
+.download-btn:hover {
+    background-color: #50b2e6;
+}
+
+/* Contact Form */
+form {
+    max-width: 600px;
+    margin: 0 auto;
+    text-align: left;
+}
+
+form label, form input, form textarea {
+    display: block;
+    width: 100%;
+    margin-bottom: 15px;
+    font-size: 16px;
+}
+
+form input, form textarea {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+form button {
+    padding: 12px 24px;
+    background-color: #61dafb;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+form button:hover {
+    background-color: #50b2e6;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color:#282c34;
+    color: white;
+}
